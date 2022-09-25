@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-
-export const ProfileCard = styled.div`
+export const StatisticsCard = styled.section`
     display: block;
     margin: 0 auto;
     border-radius: 10px;
@@ -12,35 +11,14 @@ export const ProfileCard = styled.div`
     color: white;
     margin-bottom: 16px;
 `;
-
-export const Description = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
-
-export const Avatar = styled.img`    
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    padding: 8px;
-    background-color: white; 
-`;
-export const Name = styled.p`
+export const Title = styled.h2`
+    text-align: center;
     font-weight: 900;
     font-size: 24px;
     line-height: 2;
     margin: 0;
 `;
-export const Tag = styled.p`
-    margin: 0;
-    line-height: 2;
-`;
-export const Location = styled.p`
-    margin: 0;
-    line-height: 2;
-`;
-export const Stats = styled.ul`
+export const StatList = styled.ul`
     display: flex;
     flex-basis: auto;
     list-style: none;
@@ -49,20 +27,22 @@ export const Stats = styled.ul`
     color: black;
     border-radius: 10px;
 `;
-export const StatsItem = styled.li`
+export const StatItem = styled.li`
     display: flex;
     align-items: center;
     flex-direction: column;
     flex: 1 1 200px;
     border: 4px solid #2A2E35;
     border-radius: 10px;
-    background-color: white;
+    background-color: ${() => {
+        return `#${Math.floor(Math.random()*16777215).toString(16)}`;    
+    }};
 `;
 export const Label = styled.span`
     font-weight: 500;
-    padding: 4px;
+    padding: 4px;    
 `;
-export const Quantity = styled.span`
+export const Percentage = styled.span`
     padding-bottom: 4px;
     font-size: 14px;
 `;
