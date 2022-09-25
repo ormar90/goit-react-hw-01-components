@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ormar90/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/ormar90/goit-react-hw-01-components.git/static/js/main.07d3183d.js",
+    "main.js": "/ormar90/goit-react-hw-01-components.git/static/js/main.2d3147f2.js",
     "index.html": "/ormar90/goit-react-hw-01-components.git/index.html",
     "main.7acaea2f.css.map": "/ormar90/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/ormar90/goit-react-hw-01-components.git/static/js/main.07d3183d.js.map"
+    "main.2d3147f2.js.map": "/ormar90/goit-react-hw-01-components.git/static/js/main.2d3147f2.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.2d3147f2.js"
   ]
 }
