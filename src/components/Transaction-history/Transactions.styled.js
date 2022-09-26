@@ -18,6 +18,9 @@ export const TransactionHeader = styled.th`
 `;
 export const TransactionBody = styled.tbody`
     background-color: white;
+    :nth-child(2n) {
+        background-color: #A1A3A7;
+    }
 `;
 export const TransactionData = styled.td`
     min-width: calc(320px / 3);
