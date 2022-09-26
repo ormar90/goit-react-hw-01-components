@@ -25,7 +25,6 @@ export const TransactionBody = styled.tbody`
 export const TransactionData = styled.td`
     min-width: calc(320px / 3);
     text-align: center;
-    border: none;
     border: 1px solid;
     border-radius: 10px;
     color: black;
